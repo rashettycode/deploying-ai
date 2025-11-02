@@ -27,3 +27,8 @@ deploying-ai-env
 *.jsonl
 *.htm
 *.txt
+.vscode/
+05_src/animals_chat/__main__.py
+__pycache__/
+.env
+.ipynb_checkpoints/
