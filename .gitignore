@@ -1,34 +1,61 @@
-# Python-generated files
+# ===============================
+# Python build + cache files
+# ===============================
 __pycache__/
 *.py[oc]
+*.pyo
+*.pyd
+*.egg-info/
 build/
 dist/
 wheels/
-*.egg-info
-.deepeval_telemetry.txt
-.DS_Store
-**/.deepeval/*
 
+# ===============================
 # Virtual environments
-.venv
+# ===============================
+.venv/
+venv/
+env/
+deploying-ai-env/
 uv.lock
-deploying-ai-env
 
-# Secrets
+# ===============================
+#  🔒 Secrets & keys & cache
+# ===============================
 *.secrets
 *.secrets_*
-
-
-# Logs
+.env
+.env.*
+.DS_Store
+__pycache__/
+*.pyc
 *.log
+.ipynb_checkpoints/
+gradio_cached_examples/
 
-# documents
+# ===============================
+# Telemetry & metadata
+# ===============================
+.deepeval_telemetry.txt
+**/.deepeval/*
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
+
+# ===============================
+# Logs & output files
+# ===============================
+*.log
 *.sqlite
 *.jsonl
 *.htm
 *.txt
-.vscode/
+
+# ===============================
+#  Project-specific exclusions
+# ===============================
 05_src/animals_chat/__main__.py
+documents/
+
 __pycache__/
-.env
-.ipynb_checkpoints/
+__pycache__/

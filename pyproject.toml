@@ -43,4 +43,5 @@ dependencies = [
     "pypdf>=6.1.1",
     "numexpr>=2.14.1",
     "langchain-tavily>=0.2.12",
+    "faiss-cpu>=1.12.0",
 ]
